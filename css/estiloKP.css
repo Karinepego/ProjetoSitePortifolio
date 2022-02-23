@@ -119,6 +119,23 @@ footer p {
 	text-align: left;
 }
 
+/***************************** PORTIFOLIO **********************************/
+.caixaportifolio{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*// Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) { 

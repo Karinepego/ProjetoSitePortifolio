@@ -37,7 +37,7 @@ nav.navbar-fundo {
 }
 
 
-/***** OPÇÕES MENU ******/
+/***** OPĆ‡Ć•ES MENU ******/
 .navbar-light .navbar-nav .nav-link {
 	color: white;
 }
@@ -73,7 +73,7 @@ h3{
 
 h2{
 	font-size: 2.80em;
-	font-weight: 700;
+	font-weight: 450;
 	letter-spacing: -0,04em;
 	color: #f8846b;
 }
@@ -107,7 +107,7 @@ p {
 	padding-left: 20px;
 }
 
-/**** rodapé *****/
+/**** rodapĆ© *****/
 footer{
 	background: linear-gradient(50deg,#f8846b,#fff);
 	padding: 10px;

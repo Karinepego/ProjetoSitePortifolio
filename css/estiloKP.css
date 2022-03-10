@@ -1,3 +1,5 @@
+/*AUTOR: Karine Pêgo*/
+
 * {
     margin: 0;
     padding: 0;
@@ -37,7 +39,7 @@ nav.navbar-fundo {
 }
 
 
-/***** OPĆ‡Ć•ES MENU ******/
+/***** OPCOES MENU ******/
 .navbar-light .navbar-nav .nav-link {
 	color: white;
 }
@@ -46,9 +48,7 @@ nav.navbar-fundo {
 	color: #ff4000;
 }
 
-
-/***** BOTAO HAMBURGUER *****/
-.navbar-light .navbar-toggler {
+.navbar-light {
 	color: rgba(255,255,255,1.5);
 	border-color: rgba(255,255,255,1.5);
 /* sobreescrevedo app padrao do bootstrap botao-hamburguer*/
@@ -62,13 +62,14 @@ nav.navbar-fundo {
 	border-radius: 50%;
 	margin: auto;
 	display: block;
- }
+}
 
 h3{
     font-size: 2em;
     color: #f8846b; 
     font-weight: 300;
     line-height: 1.2;
+    padding-left: 10px;
 }
 
 h2{
@@ -97,21 +98,16 @@ p {
 }
 
 /***** QUALIDADES *****/
-.caixa {
-	padding-top: 10px;
-	padding-bottom: 10px;
-}
 
 .linha{
 	border-left: 2px solid #f8846b;
-	padding-left: 20px;
+	padding-left: 10px;
 }
 
-/**** rodapĆ© *****/
+/**** RODAPE *****/
 footer{
 	background: linear-gradient(50deg,#f8846b,#fff);
-	padding: 10px;
-	margin-top: 20px;
+	padding: 15px;
 }
 
 footer p {
@@ -119,23 +115,10 @@ footer p {
 	text-align: left;
 }
 
-/***************************** PORTIFOLIO **********************************/
-.caixaportifolio{
-	margin-top: 50px;
-	margin-bottom: 50px;
+/***************************** PORTIFOLIO **********************************/ 
+.caixamargin{ 
+	margin: 40px auto;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*// Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) { 
@@ -149,8 +132,6 @@ footer p {
     h1 {
     	font-size: 3em;
     }
-    
-}
 }
 
 /*// Medium devices (tablets, 768px and up)*/
@@ -158,13 +139,18 @@ footer p {
 	 h1 {
     	font-size: 4em;
     } 
+	#foto-perfil{
+		margin-top: 150px;
+    	height: 300px; 
+		width: 300px;
+    }
 }
 
 /*// Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) and (max-width: 1199.98px) { 
 	 h1 {
     	font-size: 5em;
-    }
+    } 
 }
 
 /*// Extra large devices (large desktops, 1200px and up)*/

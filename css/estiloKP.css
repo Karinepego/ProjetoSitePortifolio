@@ -28,7 +28,6 @@ nav.navbar-fundo {
 	color: #f8846b;
 	display: inline-block;
     font-size: 2em;
-    margin-left: 10px;
 }
 
 .navbar-light .navbar-brand {
@@ -116,8 +115,8 @@ footer p {
 	text-align: left;
 }
 
-/***************************** PORTIFOLIO **********************************/ 
-.caixamargin{ 
+/***************************** PORTIFOLIO **********************************/
+.caixamargin{
 	margin: 40px auto;
 }
 

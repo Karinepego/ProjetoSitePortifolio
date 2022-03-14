@@ -28,6 +28,7 @@ nav.navbar-fundo {
 	color: #f8846b;
 	display: inline-block;
     font-size: 2em;
+    margin-left: 10px;
 }
 
 .navbar-light .navbar-brand {

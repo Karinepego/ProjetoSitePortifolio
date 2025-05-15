@@ -1,0 +1,88 @@
+.botao {
+	border-radius: 50px;
+	cursor: pointer;
+	background-color: var(--rosaescuro);
+	padding: 13px;
+	color: var(--branco);
+	width: 50%;
+	margin: 0 auto; 
+	display: block; 
+	text-align: center; 
+	font-size: 30px;
+	border: none;
+	margin-top: 50px;
+
+    box-shadow: 0 0 5px var(--rosaescuro),
+    0 0 25px var(--rosaescuro);
+}
+
+.botao:hover {
+    background-color: var(--rosahover);
+    transition: background-color 0.3s;
+
+    box-shadow: 0 0 5px var(--rosahover),
+    0 0 25px var(--rosahover),
+    0 0 100px var(--rosahover);
+}
+
+p {
+	font-size: 1.25rem;
+    display: block;
+    font-weight: 300;
+    padding: AUTO;
+}
+
+p b {
+    color: var(--rosaescuro);
+}
+
+
+/**** RODAPE *****/
+footer {
+    background: linear-gradient(180deg, var(--rosaescuro), var(--preto));
+    padding: 20px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+.footer-container {
+    width: 100%;
+    max-width: 1200px; 
+    margin: 0 auto; 
+    display: flex; 
+    justify-content: space-between; 
+}
+
+.footer-texto {
+    display: flex; 
+    flex-direction: row; 
+    text-align: left; 
+}
+
+.footer-texto p {
+    margin-right: 200px; 
+}
+
+.footer-texto a {
+    text-decoration: none; 
+    color: inherit;
+    display: block; 
+}
+
+.footer-icones ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; 
+}
+
+li {
+    margin: 0 10px; 
+}
+
+footer p {
+    font: normal normal normal 16px/1.4em avenir-lt-w01_35-light1475496, avenir-lt-w05_35-light, sans-serif;
+}

@@ -87,12 +87,37 @@ footer {
 /* ==================================== Responsividade ======================================*/
 @media screen and (max-width: 550px) {
     .container h1 {
-        font-size: 1em;
+        font-size: 1em !important;
     }
 
     .texto p {
         text-align: center;
     }
+  
+    .quadrados {
+        flex-wrap: wrap !important; 
+
+        justify-content: center;
+        align-items: center;
+        color: white;
+        display: flex;
+        gap: 20px;
+    }
+
+    .quadro {
+        width: calc(25% - 20px)!important; 
+        height: 100px !important; 
+        box-sizing: border-box !important; 
+
+        height: 100px;
+        border-bottom: 5px solid var(--rosaescuro);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+    }
+
 }
 
 @media (max-width: 768px) {
@@ -113,6 +138,31 @@ footer {
         max-width: 100%;
         text-align: center;
     }
+
+    .quadrados {
+        flex-wrap: wrap !important; 
+
+        justify-content: center;
+        align-items: center;
+        color: white;
+        display: flex;
+        gap: 20px;
+    }
+
+    .quadro {
+        width: calc(25% - 20px)!important; 
+        height: 100px !important; 
+        box-sizing: border-box !important; 
+
+        height: 100px;
+        border-bottom: 5px solid var(--rosaescuro);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+    }
+
 }
 
 @media screen and (max-width: 1000px) {
@@ -123,6 +173,31 @@ footer {
     .texto p {
         text-align: center;
     }
+
+    .quadrados {
+        flex-wrap: wrap !important; 
+
+        justify-content: center;
+        align-items: center;
+        color: white;
+        display: flex;
+        gap: 20px;
+    }
+
+    .quadro {
+        width: calc(25% - 20px)!important; 
+        height: 100px !important; 
+        box-sizing: border-box !important; 
+
+        height: 100px;
+        border-bottom: 5px solid var(--rosaescuro);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+    }
+
 }
 
 @media screen and (max-width: 1163px) {
@@ -155,6 +230,31 @@ footer {
     .texto p {
         text-align: center;
     }
+
+    .quadrados {
+        flex-wrap: wrap !important; 
+
+        justify-content: center;
+        align-items: center;
+        color: white;
+        display: flex;
+        gap: 20px;
+    }
+
+    .quadro {
+        width: calc(25% - 20px)!important; 
+        height: 100px !important; 
+        box-sizing: border-box !important; 
+
+        height: 100px;
+        border-bottom: 5px solid var(--rosaescuro);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+    }
+
 }
 
 @media screen and (max-width: 1896px) {

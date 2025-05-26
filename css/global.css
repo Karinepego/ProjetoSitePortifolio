@@ -84,7 +84,17 @@ footer {
     margin: 0;
 }
 
-/* Responsivo */
+/* ==================================== Responsividade ======================================*/
+@media screen and (max-width: 550px) {
+    .container h1 {
+        font-size: 1em;
+    }
+
+    .texto p {
+        text-align: center;
+    }
+}
+
 @media (max-width: 768px) {
     .footer-container {
         flex-direction: column;
@@ -105,3 +115,58 @@ footer {
     }
 }
 
+@media screen and (max-width: 1000px) {
+    .container h1 {
+        font-size: 2.2em;
+    }
+
+    .texto p {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 1163px) {
+    .esquerda h3 { /* Nome */
+        text-align: center;
+        font-size: 2.2em !important; /* Ajustado para uma transição mais suave */
+        font-weight: 450;
+        letter-spacing: -0.04em; /* Corrigido para o formato correto */
+        padding: 2%;
+    }
+
+    .esquerda h1 { /* Programadora Back-End */
+        font-size: 2.5em !important;; /* Ajustado para uma transição mais suave */
+        min-width: 100px;
+    }
+
+    .container { /* Foto em cima do texto */
+        flex-direction: column;
+        justify-content: center;
+        max-width: 1200px; 
+        margin: 0 auto;
+    }
+    
+    .container h1 {
+        font-size: 3em !important;;
+        text-align: center;
+        color: orange;
+    }
+
+    .texto p {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 1896px) {
+    .esquerda h3 { /* Nome */
+        text-align: center;
+        font-size: 2.8em !important; /* Ajustado para uma transição mais suave */
+        font-weight: 450;
+        letter-spacing: -0.04em; /* Corrigido para o formato correto */
+        padding: 2%;
+    }
+
+    .esquerda h1 { /* Programadora Back-End */
+        font-size: 4.2em !important; /* Ajustado para uma transição mais suave */
+    }
+}

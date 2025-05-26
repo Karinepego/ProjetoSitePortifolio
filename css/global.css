@@ -2,7 +2,7 @@
 	border-radius: 50px;
 	cursor: pointer;
 	background-color: var(--rosaescuro);
-	padding: 13px;
+	padding: 1.3%;
 	color: var(--branco);
 	width: 50%;
 	margin: 0 auto; 
@@ -10,8 +10,7 @@
 	text-align: center; 
 	font-size: 30px;
 	border: none;
-	margin-top: 50px;
-
+    margin-top: 0.5%;
     box-shadow: 0 0 5px var(--rosaescuro),
     0 0 25px var(--rosaescuro);
 }
@@ -28,7 +27,7 @@
 p {
 	font-size: 1.25rem;
     display: block;
-    font-weight: 300;
+    font-weight: 30%;
     padding: AUTO;
 }
 
@@ -37,52 +36,72 @@ p b {
 }
 
 
-/**** RODAPE *****/
 footer {
     background: linear-gradient(180deg, var(--rosaescuro), var(--preto));
-    padding: 20px;
-    display: flex;
-    justify-content: space-between; 
-    align-items: center; 
+    padding: 2%;
 }
 
 .footer-container {
-    width: 100%;
-    max-width: 1200px; 
-    margin: 0 auto; 
-    display: flex; 
-    justify-content: space-between; 
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* BLOCO DA ESQUERDA */
+.footer-esquerda {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
 }
 
 .footer-texto {
-    display: flex; 
-    flex-direction: row; 
-    text-align: left; 
+    padding: 0.5rem;
+    max-width: 200px;
+    word-break: break-word;
 }
 
-.footer-texto p {
-    margin-right: 200px; 
+/* TEXTO CENTRAL */
+.footer-centro {
+    flex: 1;
+    text-align: center;
 }
 
-.footer-texto a {
-    text-decoration: none; 
-    color: inherit;
-    display: block; 
+/* ÍCONES À DIREITA */
+.footer-icones {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .footer-icones ul {
+    display: flex;
+    gap: 1rem;
     list-style: none;
     padding: 0;
     margin: 0;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start; 
 }
 
-li {
-    margin: 0 10px; 
+/* Responsivo */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-esquerda,
+    .footer-centro,
+    .footer-icones {
+        justify-content: center;
+        margin-top: 1rem;
+    }
+
+    .footer-texto {
+        max-width: 100%;
+        text-align: center;
+    }
 }
 
-footer p {
-    font: normal normal normal 16px/1.4em avenir-lt-w01_35-light1475496, avenir-lt-w05_35-light, sans-serif;
-}

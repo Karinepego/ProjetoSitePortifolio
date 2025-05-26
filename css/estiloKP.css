@@ -36,7 +36,7 @@ body {
 .menu a {
 	color: var(--branco);
 	text-decoration: none;
-	margin: 0 10px;
+	margin: 0 1%;
 }
 
 a:hover {
@@ -47,7 +47,7 @@ a:hover {
 header {
 	width: 100%;
 	height: calc(100vh - 10px);
-	padding: 20px;
+	padding: 2%;
 	margin-bottom: 0;
 	box-sizing: border-box;
 	display: flex;
@@ -78,25 +78,25 @@ header {
 
 .esquerda ul {
     list-style: none; 
-    padding: 50px;
+    padding: 5%;
     margin: 0; 
     display: flex; 
     justify-content: center; 
 }
 
 .esquerda ul li {
-    margin: 0 10px; 
+    margin: 0 1%; 
 }
 
 .texto {
 	align-self: center;
-	padding-left: 5px;
+	padding-left: 0.5%;
 }
 
 /***** BIOGRAFIA ******/
 #foto-perfil{
-	height: 600px; 
-	width: 600px;
+	max-height: 80%; 
+	max-width: 80%;
 	border-radius: 50%;
 	margin: auto;
 	display: block;
@@ -116,10 +116,10 @@ header {
 }
 
 h1 {
-	font-size: 76px !important;
+	font-size: 4.80em !important;
 	font-weight: 100;
 	text-align: center;
-	padding-bottom: 50px;
+	padding-bottom: 5%;
     animation: neon-glow 1.5s infinite alternate;
 }
 
@@ -134,18 +134,20 @@ h3{
 	font-size: 2.80em;
 	font-weight: 450;
 	letter-spacing: -0,04em;
-	padding-bottom: 50px;
+	padding: 2%;
+        border: 1px solid yellow;
+
 }
 
 ul {
 	list-style: none;
-	margin: 0px 10px;
+	margin: 0px 1%;
 }
 
 p {
 	font-size: 1.25rem;
     display: block;
-    font-weight: 300;
+    font-weight: 30%;
     padding: AUTO;
 }
 
@@ -157,6 +159,7 @@ p b {
     text-decoration: none; 
     color: inherit;
     display: block;
+    border: 1px solid palevioletred;
 }
 
 .projetos a:visited {
@@ -171,12 +174,13 @@ p b {
 	color: white;
 	display: flex;
 	gap: 20px;
+    border: 1px solid red;
 }
 
 .quadro {
 	width: 100px;
 	height: 100px;
-	border-bottom: 3px solid var(--rosaescuro);
+	border-bottom: 5px solid var(--rosaescuro);
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -203,8 +207,9 @@ p b {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	gap: 50px;
-	padding: 80px;
+	gap: 5%;
+	padding: 3%;
+    border: 1px solid green;
 }
 
 /******************* SERVIÇOS *******************/
@@ -214,7 +219,7 @@ p b {
     align-items: center;
     text-align: center;
     color: white;
-    padding: 20px;
+    padding: 2%;
     width: 100%;
 }
 
@@ -224,8 +229,8 @@ p b {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin-bottom: 10px;
-    padding: 10px;
+    margin-bottom: 1%;
+    padding: 1%;
     width: 80%;
     max-width: 100%;
     border: 1px solid var(--rosaescuro);
@@ -238,7 +243,8 @@ p b {
     align-items: center;
     justify-content: center;
     gap: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 0.5%;
+    
 }
 
 .titulo i {
@@ -247,7 +253,7 @@ p b {
 
 .tiposervico p {
     font-size: 1.2rem;
-    margin-top: 10px;
+    margin-top: 0.5%;
 }
 
 
@@ -256,26 +262,27 @@ p b {
     display: flex;
     flex-wrap: wrap; 
     justify-content: center; 
-    padding: 10px;
-    margin: 5px auto;
+    padding: 1%;
+    margin: auto;
     max-width: 100%; 
+    border: 1px solid palevioletred;
 }
 
 .projetos > div {
     flex: 0 0 calc(20% - 20px); 
-    margin: 30px;
+    margin: 3%;
 }
 
 .titulo-projeto {
-    font-size: 20px;
-    margin-bottom: 20px;
+    font-size: 2%;
+    margin-bottom: 2%;
     color: white;
 }
 
 .imagem-projeto {
     width: 100%; 
     max-height: 160px;
-    margin-bottom: 20px;
+    margin-bottom: 2%;
 }
 
 .perfil-comentario {
@@ -287,8 +294,8 @@ p b {
 }
 
 .foto-perfil {
-    width: 70px;
-    height: 70px;
+    width: 20%;
+    height: 20%;
     border-radius: 50%; 
     object-fit: cover;
 }
@@ -301,13 +308,13 @@ p b {
 
 .comentario {
     font-size: 1rem;
-    margin-bottom: 10px;
+    margin-bottom: 1%;
     color: #fff;
 }
 
 .avaliacao i {
     color: gold;
-    margin-right: 5px;
+    margin-right: 0.5%;
 }
 
 /*********** clicavel **********/
@@ -319,7 +326,7 @@ p b {
 .imagem-projeto {
     width: 100%; 
     height: auto;
-    margin-bottom: 20px;
+    margin-bottom: 2%;
     display: block; 
 }
 
@@ -344,51 +351,4 @@ p b {
 .overlay i {
     color: white;
     font-size: 2rem;
-}
-
-
-/***************************** dispositivos moveis **********************************/
-
-/*// Extra small devices (portrait phones, less than 576px)*/
-@media (max-width: 575.98px) { 
-	p{
-		font-size: 1em;
-	}
-
-	footer p{
-		
-	}
-}
-
-/*// Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) and (max-width: 767.98px) { 
-    h1 {
-    	font-size: 3em;
-    }
-}
-
-/*// Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) and (max-width: 991.98px) { 
-	 h1 {
-    	font-size: 4em;
-    } 
-	#foto-perfil{
-		margin-top: 150px;
-    	height: 300px; 
-		width: 300px;
-    }
-}
-
-/*// Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) and (max-width: 1199.98px) { 
-	 h1 {
-    	font-size: 5em;
-    } 
-}
-
-/*// Extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) { 
-	 h1 {
-    	font-size: 6em;
-    }
 }

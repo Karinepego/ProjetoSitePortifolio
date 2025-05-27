@@ -93,7 +93,19 @@ footer {
     .texto p {
         text-align: center;
     }
-  
+
+    .projetos {
+        flex-direction: column; /* empilha os filhos */
+        align-items: center; /* centra os filhos na direção da coluna */
+    }
+
+    .projetos > div {
+        flex: none; /* remove flex grow/shrink */
+        width: 90%; /* ocupa 90% da largura do container */
+        
+        margin: 10px 0; /* espaçamento vertical */
+    }
+
     .quadrados {
         flex-wrap: wrap !important; 
 
@@ -116,6 +128,11 @@ footer {
         align-items: center;
         justify-content: center;
         border-radius: 10px;
+    }
+
+    .informacoes div {
+        flex-direction: column; 
+        margin: 10px 0 !important;
     }
 
 }
@@ -163,11 +180,20 @@ footer {
         border-radius: 10px;
     }
 
+    .informacoes div {
+        flex-direction: column; 
+        margin: 10px 0 !important;
+    }
 }
 
 @media screen and (max-width: 1000px) {
     .container h1 {
-        font-size: 2.2em;
+        font-size: 2em !important;
+
+        width: 100%;
+        box-sizing: border-box;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
     }
 
     .texto p {
@@ -196,6 +222,11 @@ footer {
         align-items: center;
         justify-content: center;
         border-radius: 10px;
+    }
+
+    .informacoes div {
+        flex-direction: column; 
+        margin: 10px 0 !important;
     }
 
 }

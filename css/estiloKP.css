@@ -63,6 +63,11 @@ header {
 .container h1 {
     text-align: center;
     color: var(--rosaescuro);
+
+    font-size: 4.80em;
+	font-weight: 100;
+	padding-bottom: 5%;
+    animation: neon-glow 1.5s infinite alternate;
 }
   
 .direitafoto {
@@ -114,14 +119,6 @@ header {
     }
 }
 
-h1 {
-	font-size: 4.80em;
-	font-weight: 100;
-	text-align: center;
-	padding-bottom: 5%;
-    animation: neon-glow 1.5s infinite alternate;
-}
-
 @keyframes neon-glow {
     0% { text-shadow: 0 0 5px var(--rosaescuro), 0 0 10px var(--rosaescuro), 0 0 20px var(--rosaescuro); }
     50% { text-shadow: 0 0 10px var(--rosaescuro), 0 0 20px var(--rosaescuro), 0 0 30px var(--rosaescuro); }
@@ -156,7 +153,6 @@ p b {
     text-decoration: none; 
     color: inherit;
     display: block;
-    border: 1px solid palevioletred;
 }
 
 .projetos a:visited {
@@ -204,7 +200,6 @@ p b {
 	justify-content: center;
 	gap: 5%;
 	padding: 3%;
-    border: 1px solid green;
 }
 
 /******************* SERVIÇOS *******************/
@@ -260,7 +255,6 @@ p b {
     padding: 1%;
     margin: auto;
     max-width: 100%; 
-    border: 1px solid palevioletred;
 }
 
 .projetos > div {
@@ -269,7 +263,7 @@ p b {
 }
 
 .titulo-projeto {
-    font-size: 2%;
+    font-size: 2em;
     margin-bottom: 2%;
     color: white;
 }

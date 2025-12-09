@@ -6,9 +6,9 @@
 }
 
 :root{
-    --preto:#181A1B;
-	--rosaescuro:#F8856B;
-	--rosahover:#ad4624;
+    --preto:#111111;
+	--rosaescuro:#b80f7a;
+	--rosahover:#8a085a;
 	--branco: #FFFFFF;
 }
 
@@ -234,7 +234,7 @@ p b {
     justify-content: center;
     gap: 10px;
     margin-bottom: 0.5%;
-    
+    font-size: 20px;
 }
 
 .titulo i {

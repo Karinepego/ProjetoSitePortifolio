@@ -289,15 +289,80 @@ footer {
 }
 
 @media screen and (max-width: 1896px) {
-    .esquerda h3 { /* Nome */
+    .esquerda h3 {
         text-align: center;
-        font-size: 2.8em !important; /* Ajustado para uma transição mais suave */
+        font-size: 2.8em !important;
         font-weight: 450;
-        letter-spacing: -0.04em; /* Corrigido para o formato correto */
+        letter-spacing: -0.04em;
         padding: 2%;
     }
 
-    .esquerda h1 { /* Programadora Back-End */
-        font-size: 4.2em !important; /* Ajustado para uma transição mais suave */
+    .esquerda h1 {
+        font-size: 4.2em !important; 
     }
+}
+
+
+/******************* BARRA DE NAVEGAÇÃO *******************/
+nav {
+  background: linear-gradient(90deg, var(--preto), var(--rosaescuro));
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: var(--rosaescuro);
+  font-weight: bold;
+  font-size: 35px;
+  text-decoration: none;
+}
+
+/* MENU */
+ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* HAMBURGUER */
+.menu-toggle {
+  display: none;
+  font-size: 26px;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  ul {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background: #222;
+    flex-direction: column;
+    display: none;
+  }
+
+  ul li {
+    text-align: center;
+    padding: 15px 0;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  ul.active {
+    display: flex;
+  }
 }
